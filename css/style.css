@@ -1,0 +1,172 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* variable */
+:root {
+    --h2-color: blue;
+    --white: #faf0e6;
+}
+
+/* Header */
+header {
+    margin-top: 0;
+    background-color: blueviolet;
+    padding: 1px 20%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: wheat;
+    display: inline-block;
+
+}
+
+
+.logo {
+    font-size: 25px;
+    word-spacing: 10px;
+}
+
+/* main section */
+main {
+    margin: 0 20%;
+}
+
+.player-blog {
+    background-color: antiquewhite;
+    padding: 10px 20px;
+}
+
+.player-blog hr {
+    margin: 30px auto;
+
+
+}
+
+/* top player */
+.top-player h2 {
+    color: var(--h2-color);
+}
+
+.players {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.player {
+    display: flex;
+    align-items: center;
+}
+
+.player img {
+    height: 50px;
+
+    margin-right: 20px;
+}
+
+/* top blog */
+.top-blog h2 {
+    color: var(--h2-color);
+}
+
+.blogs {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    gap: 20px;
+}
+
+.blog {
+    display: flex;
+    align-items: center;
+}
+
+.blog img {
+    width: 50%;
+    margin-right: 20px;
+}
+
+.blog-details {
+    padding: 0 5px;
+}
+
+.blog-details p span {
+    color: var(--h2-color);
+}
+
+/* Latest Course Section */
+.latest-course {
+    margin-top: 30px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    padding-top: 0px;
+    padding-top: 10px;
+}
+
+.latest-course h2 {
+    color: var(--h2-color);
+    margin-left: 30px;
+}
+
+.courses {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    padding: 30px;
+
+}
+
+.course {
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.course-banner img {
+    width: 100%;
+}
+
+.course-author {
+    color: tomato;
+}
+
+.course-level {
+    display: flex;
+    justify-content: space-between;
+    font-size: small;
+}
+
+.ratting {
+    color: orange;
+}
+
+.duration {
+    color: red;
+    background-color: rgba(255, 99, 71, 0.644);
+    padding: 3px 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}
